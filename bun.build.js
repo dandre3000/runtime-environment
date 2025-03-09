@@ -1,4 +1,4 @@
-// Type check and minify
+// Minify
 await Bun.build({
     entrypoints: ['./index.js'],
     outdir: './',

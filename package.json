@@ -1,0 +1,38 @@
+{
+  "name": "@dandre3000/runtime-environment",
+  "version": "1.0.0",
+  "description": "Determine which javascript runtime environment is executing your code.",
+  "keywords": [
+    "check",
+    "checking",
+    "context",
+    "detect",
+    "detection",
+    "engine",
+    "env",
+    "environment",
+    "is",
+    "javascript",
+    "js",
+    "runtime",
+    "browser",
+    "bun",
+    "deno",
+    "node"
+  ],
+  "license": "MIT",
+  "main": "runtimeEnvironment.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dandre3000/runtime-environment"
+  },
+  "scripts": {
+    "build": "bun bun.build.js"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.3",
+    "@types/deno": "^2.2.0",
+    "@types/node": "^22.13.5"
+  },
+  "type": "module"
+}

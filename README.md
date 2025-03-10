@@ -1,35 +1,27 @@
 ## Usage
 ``` js
-// main.js
+// file.js
 import { runtimeEnvironment } from 'runtime-environment'
 
 console.log(runtimeEnvironment)
 ```
 
 ``` html 
-<script src="./main.js" type="module"></script>
-```
-``` js
-// Log: "browser"
+<script src="./file.js" type="module"></script>
+<!-- Log: "browser" -->
 ```
 
-``` console 
-node main.js
-```
-``` js
-// Log: "node"
+``` shell 
+node file.js
+# Log: "node"
 ```
 
-``` console 
-bun main.js
-```
-``` js
-// Log: "bun"
+``` shell 
+bun file.js
+# Log: "bun"
 ```
 
-``` console 
-deno main.js
-```
-``` js
-// Log: "deno"
+``` shell 
+deno file.js
+# Log: "deno"
 ```
